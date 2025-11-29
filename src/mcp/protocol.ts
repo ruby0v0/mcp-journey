@@ -6,7 +6,7 @@ export interface JsonRpcMessage {
 }
 
 export interface McpRequest extends JsonRpcMessage {
-  method: 'initialize' | 'sum' | 'createFile';
+  method: 'initialize' | 'tools/list' | 'tools/call' | 'sum' | 'createFile';
 }
 
 export interface McpResponse {

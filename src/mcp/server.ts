@@ -1,5 +1,5 @@
 import type { McpRequest, McpResponse } from './protocol.ts'
-import { sum, createFile } from '../utils/stdio/index.ts'
+import { sum, createFile } from '../utils/tools/index.ts'
 
 process.stdin.setEncoding('utf-8')
 
